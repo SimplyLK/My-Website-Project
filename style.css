@@ -1,16 +1,27 @@
 body {
   background:#eee;
+  padding: 70px;
 
 }
 
 .white-box {
     background-color: white;
-    padding: 20px ;
+    padding: 50px;
+    border-radius: 5px;
 }
 
+img {
+ display: block;
+     margin: 5px auto;
+  border-radius: 10%;
+  resize: both;
+  max-width:20%;
+  max-height:20%;
+  
+}
 .buttonload {
-  display: inline-block;
-  align-content: center;
+  display: block;
+  margin: 10px auto;
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -25,7 +36,86 @@ body {
             background-color: white;
             color: #000000;
             cursor: pointer;
-        }
+ }
+
+li {
+  display: inline-block;
+  text-decoration: none; 
+  list-style-type: none;
+  width: 25%;
+  content: center;
+}
+
+.experiencebutton {
+  display: block;
+  width: 25%;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.experiencebutton:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+ }
+
+.blogbutton {
+  display: block;
+  width: 25%;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.blogbutton:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+
+.contactbutton {
+  display: block;
+  width: 25%;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.contactbutton:hover{
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
 
 h1, h2, h3 {
   font-family: sans-serif;
