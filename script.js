@@ -1,3 +1,4 @@
+ 
  function learningInProcess() {
     let learning = prompt("Laura is currently learning, please be patient? Yes or No?");
     learning = learning.toLowerCase();
